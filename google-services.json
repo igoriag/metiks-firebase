@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "458915720392",
+    "firebase_url": "https://metiks-625ac.firebaseio.com",
+    "project_id": "metiks-625ac",
+    "storage_bucket": "metiks-625ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458915720392:android:547be1018435a08af489fd",
+        "android_client_info": {
+          "package_name": "com.example.metiks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458915720392-h79gta3k748g0bt0brbg178udjov8ehp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.metiks",
+            "certificate_hash": "a46f932f391a62f4902bb3498430259db136e085"
+          }
+        },
+        {
+          "client_id": "458915720392-lucviviqbtsl87pdf8t2uavqjvaaab0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGL786RBgtWvyb5ij_liWk7H8tma6qYVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458915720392-lucviviqbtsl87pdf8t2uavqjvaaab0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
