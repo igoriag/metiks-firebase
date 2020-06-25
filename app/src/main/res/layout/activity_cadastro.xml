@@ -94,14 +94,14 @@
         android:layout_marginRight="32dp"
         android:background="@drawable/bachgroud_botao"
         android:text="CADASTRAR"
-        app:layout_constraintBottom_toTopOf="@+id/progressLogin"
+        app:layout_constraintBottom_toTopOf="@+id/progressCadastrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editcadastroPassword" />
 
     <ProgressBar
-        android:id="@+id/progressLogin"
+        android:id="@+id/progressCadastrar"
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
