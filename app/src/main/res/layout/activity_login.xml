@@ -85,6 +85,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@android:color/transparent"
+        android:onClick="abrirCadastro"
         android:text="cadastre-se"
         android:textColor="@android:color/black"
         android:textSize="16dp"
