@@ -40,7 +40,7 @@ public class CadastroActivity extends AppCompatActivity {
         botaoCadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                progressBar.setVisibility(View.VISIBLE);
+
                 String textoNome = campoNome.getText().toString();
                 String textoEmail = campoEmail.getText().toString();
                 String textoSenha = campoSenha.getText().toString();
@@ -73,6 +73,7 @@ public class CadastroActivity extends AppCompatActivity {
     }
     //metodo responsavel por cadastrar usuario e fazer validaçoes
     public void cadastrarUsuario(Usuario usuario){
+        progressBar.setVisibility(View.VISIBLE);
         autenticacao = ConfiguracaoFirebase.getFirebaseAutenticacao();
         autenticacao.createUserWithEmailAndPassword(
                 usuario.getEmail(),usuario.getSenha()
