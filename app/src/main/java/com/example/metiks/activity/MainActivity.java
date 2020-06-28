@@ -12,7 +12,9 @@ import android.view.MenuItem;
 
 import com.example.metiks.R;
 import com.example.metiks.helper.ConfiguracaoFirebase;
+import com.google.android.material.bottomnavigation.BottomNavigationMenuView;
 import com.google.firebase.auth.FirebaseAuth;
+import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,6 +32,20 @@ public class MainActivity extends AppCompatActivity {
 
         //configurar objetos
         autenticacao = ConfiguracaoFirebase.getFirebaseAutenticacao();
+
+        //configurar botton navigation View
+        configuraBottonNavigationView();
+    }
+
+    //metodo responsavel por criar a BottomNavigation
+
+    private  void configuraBottonNavigationView(){
+        BottomNavigationViewEx bottomNavigationViewEx = findViewById(R.id.bottomNavigation);
+
+        bottomNavigationViewEx.enableAnimation(false);
+
+
+
     }
 
     @Override
